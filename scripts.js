@@ -32,7 +32,7 @@ function check(){
     var ledate= ledate.getFullYear()
     var mondate = new Date();
     var mondate= mondate.getFullYear()
-    if (!(ledate.isNaN)){
+    if (ledate.isNaN){
     alert("Entrez une date de naissance!");
     return false;
     }

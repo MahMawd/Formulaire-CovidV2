@@ -100,6 +100,8 @@ function check(){
             if (fivePts[i].checked)
             score += 5
         }
+        if(mauxtete.checked)
+            score +=1
         var tempOui=document.getElementById("tempOui"); //msg
         var touxSeche=document.getElementById("touxSéche");
         var fatiOui=document.getElementById("fatiOui");
